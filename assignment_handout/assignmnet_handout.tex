@@ -1,0 +1,199 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{graphicx,caption}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{amssymb}
+\usepackage[noend]{algpseudocode}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+
+
+\def\BState{\State\hskip-\ALG@thistlm}
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+
+        \begin{huge}
+            \textbf{Neural Networks and Fuzzy Logic}
+        \end{huge}
+        \LARGE{Overview of programming assignments}
+
+        \vspace{4cm}
+
+        \textbf{The course team}\\
+        \today
+
+        \vspace{2.5cm}
+
+        \includegraphics[width=0.4\textwidth]{logo}
+        \vspace{1cm}
+
+        Birla Institute of Technology and Science, Pilani\\
+        \vspace{0.5cm}
+    \end{center}
+\end{titlepage}
+
+
+\tableofcontents
+
+\vspace{10cm}
+
+\section{Introduction}
+
+The five programming assignments are designed to 
+to reinforce the understanding of course material 
+and their applications.
+
+\section{Timeline}
+
+The following represents an approximate timeline for the
+programming components.
+
+\vspace{0.5cm}
+
+\begin{tabular}{ | p{10em} || p{25em} | }
+\hline
+8th August & Pre-course survey. \\
+\hline
+12th August & Hands-on-coding session 0: Introduction to
+             Python and Numpy.\\
+\hline
+14th August & Assignment 0 release: Introduction to Matrix operations
+                            and Fuzzy logic. \\
+\hline
+23rd August & Assignment 0 Submission. \\
+\hline
+29th August & Hand-on-coding session 1: Plotting with Matplotlib and k-means clustering. \\
+\hline
+2nd September & Assignment 1 release: Fuzzy Logic and Genetic Algorithms. \\
+\hline
+11th September & Assignment 1 Submission.\\
+\hline
+14th September & Hand-on-coding Session 2: Introduction to Scikit-Learn for data pre-processing and visualisation. \\
+\hline
+16th September & Assignment 2 release: RBF Networks, SVM and Multi-layer perceptron.\\
+\hline
+25th September & Assignment 2 Submission.\\
+\hline
+3rd October & Mid-Semester survey.\\
+\hline
+17th October & Hand-on-coding session 3: Hassle-free set-up of deep learning frameworks with DL-docker, Introduction to Pytorch.\\
+\hline
+17th October & Assignment 3 release: Exploring activation functions and variations of gradient descent,
+                                     Introduction to high-level machine learning libraries. \\
+\hline
+26rd October & Assignment 3 Submission. \\
+\hline
+26th October & Hand-on-coding session 4: Scikit-Learn and Scikit-fuzzy by examples.\\
+\hline
+7th November & Hand-on-coding session 5: Pytorch by examples.\\
+\hline
+7th November & Open hours: Assignment 4 topic selection help.\\
+\hline
+7th November & Assignment 4 release: Guided project.\\
+\hline
+14th November & Assignment 4:Stage 0 evaluation.\\
+\hline
+21-23nd November & Assignment 4:Stage 1 evaluation.\\
+\hline
+26th November & End-Semester survey.\\
+\hline
+\end{tabular}
+
+\section{Evaluation scheme}
+The first four assignments will be for 15 marks each and the final assignment would 
+carry 45 marks out of the course total of 300 marks.
+
+\section{Details}
+
+\subsection{Hands-on-coding session 0}
+
+The first session would provide an introduction to Python, Numpy and jupyter notebooks.
+
+\subsection{Assignment 0}
+
+Assignment 0 would start with some practice problems on python basics and Numpy, so as to get students comfortable with matrix operations.
+The problems shall be focused on data handling in python and core Numpy concepts
+including slicing, fancy-indexing and masked index.
+
+The later half of the assignment would deal with fuzzy set operations, the functions written in the first assignment shall be
+used for more implementation of the fuzzy logic algorithms in the next assignment.
+
+\subsection{Hands-on-coding session 1}
+
+Introduction of Matplotlib and demonstration of different examples of loading and plotting data in python will be 
+the main agenda of this session.
+
+\subsection{Assignment 1}
+
+The first half of assignment 1 will be concerned with implementing a fuzzy c-means clustering and defuzzification algorithms.
+
+Formulating a problem for genetic algorithm could be tricky and shall be the centre of our focus.
+Students will have to model solution for a real world problem and compete in Kaggle like competition. 
+
+\subsection{Hands-on-coding session 2}
+
+Data pre-processing is an crucial step to make any learning algorithm work
+and hence we shall cover vector representations for different kind of data
+and normalization schemes. In the later half of session will
+provide a brief introduction to Scikit-learn. 
+
+\subsection{Assignment 2}
+
+Students would have to model one common problem throughout using SVM, RBF Nets and 
+Multi-layer perceptron and perform comparative analysis of the three algorithms.
+
+This assignments will also have a live scoreboard like the previous one.
+
+\subsection{Hands-on-coding session 3}
+
+In this session, we shall provide a gentle
+introduction to pytorch and auto-differentiation libraries.
+
+\subsection{Assignment 3}
+
+Activation functions and decent algorithm are possibly the
+most important meta parameter in a neural network. The first half of the
+assignment would deal with implementing various activation functions
+and variations of gradient descent in numpy (building over the code
+in assignment 2) and analysing it's results.
+
+In the later half, we shall have a modelling problem which students
+would have to code in pytorch. Again, we could have a scoreboard.
+This exercise would be instrumental towards the final assignment.
+
+
+\subsection{Hands-on-coding session 4}
+
+In this session we would explore some examples using
+Scikit-Learn and Scikit-fuzzy. This session is meant to facilitate 
+final assignment.
+
+\subsection{Hands-on-coding session 5}
+
+The sixth and final hands-on coding session would also be on similar
+lines as that of the previous one except it would focus on applying
+pytorch on real world problems.
+
+\subsection{Assignment 4}
+
+The final assignment will be special since it will carry thrice the
+weightage of other assignments. Students would have to work in teams 
+for this assignment. Every team will be assigned a specific paper 
+based on their prior knowledge and interests.
+
+The first stage of evaluation would test the understanding of the
+paper. While the second stage would involve submission of code and Viva. 
+
+\end{document}
